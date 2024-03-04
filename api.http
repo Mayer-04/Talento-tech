@@ -1,0 +1,22 @@
+### TODO: Recuperar todos los usuarios
+GET http://localhost:5000/api/house
+
+### Crear un usuario
+POST http://localhost:5000/api/house
+
+Content-Type: application/json
+
+{
+    "address": "Calle 10E #10-14",
+    "city": "Bogota",
+    "state": "Caldas",
+    "size": 56,
+    "type": "apartment",
+    "zip_code": "1700004",
+    "rooms": 3,
+    "bathrooms": 2,
+    "parking": false,
+    "price": 190000000,
+    "code": "ABCD7855",
+    "image": "uploads\\1708391419588-descarga.jpeg"
+}
